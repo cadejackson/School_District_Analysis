@@ -9,16 +9,16 @@ The project started by reading the school and student data, performing some data
 
 Code Used:
 
-- Pandas
-    groupby with aggregate
-    mean
-    count
-    .loc
-    DataFrame filtering
-    DataFrame merging
-    cut
-- Numpy
-    np.nan
+1.  Pandas
+    - groupby with aggregate
+    - mean
+    - count
+    - .loc
+    - DataFrame filtering
+    - DataFrame merging
+    - cut
+2.  Numpy
+    - np.nan
 
 School District Summary DataFrame:
 
