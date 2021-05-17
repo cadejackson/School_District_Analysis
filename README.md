@@ -10,15 +10,15 @@ The project started by reading the school and student data, performing some data
 Code Used:
 
 - Pandas
--   groupby with aggregate
--   mean
--   count
--   .loc
--   DataFrame filtering
--   merging
--   cut
+    groupby with aggregate
+    mean
+    count
+    .loc
+    DataFrame filtering
+    DataFrame merging
+    cut
 - Numpy
--   np.nan
+    np.nan
 
 School District Summary DataFrame:
 
@@ -55,3 +55,7 @@ Average Scores by School type
 ![Average Scores by School Type](https://github.com/cadejackson/School_District_Analysis/blob/main/Resources/Scores%20by%20School%20Type.png)
 
 ## <u>Summary</u>
+
+Overall, we saw slight changes to the district summary with the average math score dropping slightly but the percentage of passing students for math and reading icnreasing by 1%.  The slight change is due to the large district size of almost 40,000 students and we only removed 461 students from the dataset which only account for 1.18% of the total student population in the school district.  The scores for Thomas High School had slight changes which indicate that the 9th grade results were not altered.
+
+[District Summary Comparison]
