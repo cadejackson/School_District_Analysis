@@ -56,6 +56,6 @@ Average Scores by School type
 
 ## <u>Summary</u>
 
-Overall, we saw slight changes to the district summary with the average math score dropping slightly but the percentage of passing students for math and reading icnreasing by 1%.  The slight change is due to the large district size of almost 40,000 students and we only removed 461 students from the dataset which only account for 1.18% of the total student population in the school district.  The scores for Thomas High School had slight changes which indicate that the 9th grade results were not altered.
+Overall, we saw slight changes to the district summary with the average math score dropping slightly but the percentage of passing students for math and reading increasing by 1%.  The slight change is due to the large district size of almost 40,000 students and we only removed 461 students from the dataset which only accounts for 1.18% of the total student population in the school district.  The scores for Thomas High School had slight changes which indicate that the 9th grade results were most likely not altered.
 
 ![District Summary Comparison](https://github.com/cadejackson/School_District_Analysis/blob/main/Resources/District%20Summary%20Comparison.png)
