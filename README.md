@@ -5,22 +5,36 @@ The school board has suspicion that the grades from Thomas High School have been
 
 ## <u>Results</u>
 
-The project started by reading the school and student, performing some data cleaning and then merging the datasets together for further analysis.  I then replaced math, reading, and overall passing percentages with "nan" for Thomas High School in order to re-calculate the statistics for 10th - 12th grades.
+The project started by reading the school and student data, performing some data cleaning, and then merging the datasets together for further analysis.  Then we replaced math, reading, and overall passing percentages with "nan" for Thomas High School in order to re-calculate the statistics for 10th - 12th grades.  After re-caluclating the results we observed that the new results were very similar to hte original results.  The district summary had a slight change and the top 5 and bottom 5 schools remained unchanged.  This implies that the 9th grade scores were not altered.
 
+Code Used:
 
-School District Summary DataFrame
+- Pandas
+-   groupby with aggregate
+-   mean
+-   count
+-   .loc
+-   DataFrame filtering
+-   merging
+-   cut
+- Numpy
+-   np.nan
+
+School District Summary DataFrame:
 
 ![School District Summary](https://github.com/cadejackson/School_District_Analysis/blob/main/Resources/District%20Summary.png)
 
-Bottom 5 Performing Schools
+Bottom 5 Performing Schools:
 
 ![Bottom 5 Performing Schools](https://github.com/cadejackson/School_District_Analysis/blob/main/Resources/Bottom%205%20Schools.png)
 
-Top 5 Performing Schools
+Top 5 Performing Schools:
 
 ![Top 5 Performing Schools](https://github.com/cadejackson/School_District_Analysis/blob/main/Resources/Top%205%20Schools.png)
 
-Average Math Scores for Each Grade Level
+Average Math Scores for Each Grade Level:
+
+
 
 ![Average Math Scores by Grade](https://github.com/cadejackson/School_District_Analysis/blob/main/Resources/Average%20Math%20Scores%20by%20Grade.png)
 
